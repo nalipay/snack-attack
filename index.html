@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <title>SNACK ATTACK</title>
+  </head>
+  <body>
+  
+    <h1>SNACK ATTACK</h1>
+  
+    <div class="canvas-container">
+      <div id="canvas"></div>
+      <div class="start-image">
+         <button class="start" onClick="startGame()"><img class="start" src="assets/—Pngtree—play button purple applet icon_7389642.png" /></button>
+      </div>
+    </div>
+  
+    <div class="counter-container">
+      <div class="snack-counter">
+        <p> Donut Snacks: <span class="donut-counter" >0</span> </p>
+        <p> Jelly Snacks: <span class="jelly-counter" >0</span> </p>
+      </div>
+    </div>
+
+<!-- SHIFT + OPTION + A -->
+    <div class="info-container">
+      <div class="game-info">
+        <p>Attack the Snacks by using the Arrow Keys</p>
+      </div>
+    </div>
+    
+    
+    <script src="./js/background.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/donut.js"></script>
+    <script src="./js/jelly.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./js/main.js"></script>
+
+    
+  </body>
+</html>
